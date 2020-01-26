@@ -4,3 +4,6 @@
 
 layout: home
 ---
+<div class="hero">
+    <img class="feature-img" src="{{ 'assets/img/profile.jpg' }}" alt="profile"/>
+</div>
