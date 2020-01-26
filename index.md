@@ -4,6 +4,6 @@
 
 layout: home
 ---
-<div class="hero">
-    <img class="feature-img" src="{{ 'assets/img/profile.jpg' }}" alt="profile"/>
-</div>
+
+<img src="{{ 'assets/img/profile.jpg' }}" alt="profile" width="200" style="border-radius: 50%"/>
+
