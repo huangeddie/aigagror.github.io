@@ -1,0 +1,31 @@
+{% for unit in include.units %}
+    {% if resume and unit.cv %}
+        {# Skip #}
+    {% else %}
+        <div class="d-flex justify-content-between">
+            <b>{{ unit.title }}</b> <small class="dynamic">{{ unit.date }}</small>
+        </div>
+        <div class="d-flex justify-content-between mb-2">
+            <small class="dynamic">{{ unit.subtitle|safe }}</small>
+            <small class="dynamic text-right">
+                {{ unit.detail }}
+            </small>
+        </div>
+        <ul class="ml-4">
+            {% for description_item in unit.description %}
+                <li>
+                    {{ description_item.statement|safe }}
+                    <ul>
+                        {% for subdescription_item in description_item.subdescription %}
+                            <li>
+                                {{ subdescription_item }}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endfor %}
+
+

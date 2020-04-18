@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+<div class="container py-4">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col text-center">
+            <span style="font-weight: 900; font-size: x-large">Eddie Huang</span>
+        </div>
+        <div class="col"></div>
+    </div>
+    <hr class="my-0">
+    <div class="text-center dynamic">
+        aigagror@gmail.com | <a href="{{ site.baseurl }}">aigagror.github.io</a> | <a href="{{ site.github.owner_url }}">github.com/aigagror</a>
+    </div>
+
+    {{ content }}
+</div>
+</body>
+
+</html>

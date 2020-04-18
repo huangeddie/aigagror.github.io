@@ -1,0 +1,107 @@
+internships:
+  - title: Google - Mountain View, CA
+    subtitle: Software Engineer Intern
+    date: Summer 2019
+    detail: C++, Google Infrastructure, Tensorflow
+    description:
+      - statement: Created a pipeline to select and process data for neural style transfers
+      - statement: Created a crowd-sourcing rating system for neural style transfer creations
+      - statement: Created deep ML models to predict the probability that a user would prefer the stylized photo over the original content
+  - cv: true
+    title: Epic Systems - Verona, WI
+    subtitle: Software Engineer Intern
+    date: Summer 2018
+    detail: Python, Django, DialogFlow, Twilio
+    description:
+      - statement: Created an SMS text messaging assistant featuring natural language processing
+      - statement: Dogfooded testing protocols with colleagues and developed dashboards to oversee large scale training
+  - cv: true
+    title: Agrible, Inc. - Champaign, IL
+    subtitle: iOS Software Engineer Intern
+    date: Winter 2017
+    detail: iOS, Swift
+    description:
+      - statement: Front and backend development Agrible's Pocket Drone and Pocket Rain apps
+        subdescription:
+          - Implemented new UI features
+          - Created unit and UI tests
+
+teachings:
+  - title: University of Illinois at Urbana-Champaign
+    subtitle: Numerical Methods I Teaching Assistant
+    date: January 2019 - May 2019
+    detail: Python
+    description:
+      - statement: |
+          Designed and created new course website:
+          <a target="_blank" class="" href="https://courses.engr.illinois.edu/cs357/sp2020/">
+          [<small>https://courses.engr.illinois.edu/cs357/sp2020/</small>]
+          </a>
+      - statement: Created homeworks, quizzes, and hosted office hours
+  - title: University of Illinois at Urbana-Champaign
+    subtitle: Artificial Intelligence Teaching Assistant
+    date: September 2019 - December 2019
+    detail: Python
+    description:
+      - statement: Migrated current assignments into Gradescope's autograding infrastructure
+      - statement: Created a new reinforcement learning assignment using OpenAI's Gym framework
+  - title: University of Illinois at Urbana-Champaign
+    subtitle: Data Structures Course Assistant
+    date: January 2018 - May 2019
+    detail: C++, Docker, Jekyll
+    description:
+      - statement: |
+          Designed and created new course website:
+          <a target="_blank" class="" href="https://courses.engr.illinois.edu/cs225/fa2019/">
+              [<small>courses.engr.illinois.edu/cs225/fa2019/</small>]
+          </a>
+      - statement: Created daily coding problems, solutions, and test cases (Problems of The Day).
+
+research:
+  - title: iLearn Research Group - Champaign, IL
+    subtitle: Educational Research Assistant for MOOCs
+    date: March 2018 - September 2019
+    detail: Python, Pandas
+    description:
+      - statement: |
+            <b>Huang, E.</b>, Valdiviejas, H., & Bosch, N. (in press). I'm sure! Automatic detection of metacognition in
+            online course discussion forums. In Proceedings of the 8th International Conference on Affective Computing
+            and Intelligent Interaction (ACII 2019). Piscataway, NJ: IEEE
+      - statement: |
+          Bosch, N., <b>Huang, E.</b>, Angrave, L., & Perry, M. (2019). Modeling improvement for underrepresented
+          minorities in online STEM education. In Proceedings of the 27th Conference on User Modeling, Adaptation and
+          Personalization (UMAP 2019) (pp. 327–335). New York, NY: ACM. <a target="_blank" class=""
+          href="https://doi.org/10.1145/3320435.3320463">[<small>doi.org/10.1145/3320435.3320463</small>]</a>
+  - title: Awards
+    description:
+      - statement: |
+          Honorable Mention for the Outstanding Undergraduate Researcher Award for the 2019 Computing Research
+          Association's (CRA)
+
+projects:
+  - title: Gym Go and Go AI
+    subtitle: |
+      <a href="https://github.com/aigagror/GymGo">
+        [<small>github.com/aigagror/GymGo</small>]
+      </a>
+    date: July 2019 - Present
+    detail: Python, PyTorch
+    description:
+      - statement: Created computer Go for RL development which is listed in OpenAI's Gym library
+      - statement: |
+          Implemented a variation of Alpha Go Zero
+  - title: Deep Learning Art
+    subtitle: |
+      <a href="https://github.com/aigagror/ML-Aesthetics-NIMA">
+        [<small>github.com/aigagror/ML-Aesthetics-NIMA</small>]
+      </a>
+    date: August 2018 - May 2019
+    detail: Python, PyTorch
+    description:
+      - statement: Fine tuned DenseNet via Neural Image Assessment to rate the aesthetic quality of images
+  - title: Pokulator
+    subtitle: App Store Developer
+    date: August 2015 - December 2015
+    detail: Swift
+    description:
+      - statement: Created an iOS app to calculate the probability of hands and winning using Monte Carlo sampling (3k downloads)
