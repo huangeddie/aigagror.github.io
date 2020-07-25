@@ -1,6 +1,14 @@
 internships:
   - title: Google - Mountain View, CA
     subtitle: Software Engineer Intern
+    date: Summer 2020
+    detail: Python, Google Infrastructure, Tensorflow
+    description:
+      - statement: Created deep ML models for full-reference image quality assessment of compressed images
+      - statement: Created a crowd-sourcing rating system for perceptual quality of compressed images
+      - statement: Created large-scale dataset pipelines for perceptual quality of compressed images
+  - title: Google - Mountain View, CA
+    subtitle: Software Engineer Intern
     date: Summer 2019
     detail: C++, Google Infrastructure, Tensorflow
     description:
