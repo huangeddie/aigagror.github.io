@@ -66,15 +66,28 @@ teachings:
       - statement: Created daily coding problems, solutions, and test cases (Problems of The Day).
 
 research:
+  - title: Wasserstein Style Transfer
+    subtitle: University of Illinois, Urbana-Champaign
+    date: December 2019 - June 2020
+    detail: PyTorch, Colab
+    description:
+      - statement: |
+          Achieved higher quality style transfer by redefining the style loss as the Wasserstein distance between the
+          style features and the generated image features.
+      - statement: |
+          Huang, Eddie and Sahil Gupta. “Style is a Distribution of Features.” (2020).
+          <a target="_blank" class="" href="https://arxiv.org/abs/2007.13010">
+              [<small>arxiv.org/abs/2007.13010</small>]
+          </a>
   - title: iLearn Research Group - Champaign, IL
     subtitle: Educational Research Assistant for MOOCs
     date: March 2018 - September 2019
     detail: Python, Pandas
     description:
       - statement: |
-            <b>Huang, E.</b>, Valdiviejas, H., & Bosch, N. (in press). I'm sure! Automatic detection of metacognition in
-            online course discussion forums. In Proceedings of the 8th International Conference on Affective Computing
-            and Intelligent Interaction (ACII 2019). Piscataway, NJ: IEEE
+          <b>Huang, E.</b>, Valdiviejas, H., & Bosch, N. (in press). I'm sure! Automatic detection of metacognition in
+          online course discussion forums. In Proceedings of the 8th International Conference on Affective Computing
+          and Intelligent Interaction (ACII 2019). Piscataway, NJ: IEEE
       - statement: |
           Bosch, N., <b>Huang, E.</b>, Angrave, L., & Perry, M. (2019). Modeling improvement for underrepresented
           minorities in online STEM education. In Proceedings of the 27th Conference on User Modeling, Adaptation and
