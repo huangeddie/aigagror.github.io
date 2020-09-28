@@ -36,13 +36,13 @@ internships:
 
 teachings:
   - title: University of Illinois at Urbana-Champaign
-    subtitle: Machine Learning Teaching Assistant
+    subtitle: CS 446 Machine Learning Teaching Assistant
     date: Fall 2020
     detail: Python
     description:
       - statement: Created homeworks, exams, and hosted office hours
   - title: University of Illinois at Urbana-Champaign
-    subtitle: Numerical Methods I Teaching Assistant
+    subtitle: CS 357 Numerical Methods I Teaching Assistant
     date: Spring 2019
     detail: Python
     description:
@@ -53,14 +53,14 @@ teachings:
           </a>
       - statement: Created homeworks, quizzes, and hosted office hours
   - title: University of Illinois at Urbana-Champaign
-    subtitle: Artificial Intelligence Teaching Assistant
+    subtitle: CS 440 Artificial Intelligence Teaching Assistant
     date: Fall 2019
     detail: Python
     description:
       - statement: Migrated current assignments into Gradescope's autograding infrastructure
       - statement: Created a new reinforcement learning assignment using OpenAI's Gym framework
   - title: University of Illinois at Urbana-Champaign
-    subtitle: Data Structures Course Assistant
+    subtitle: CS 225 Data Structures Course Assistant
     date: Spring 2018 - Spring 2019
     detail: C++, Docker, Jekyll
     description:
