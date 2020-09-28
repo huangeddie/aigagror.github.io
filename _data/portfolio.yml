@@ -69,7 +69,7 @@ research:
   - title: Wasserstein Style Transfer
     subtitle: University of Illinois, Urbana-Champaign
     date: December 2019 - June 2020
-    detail: PyTorch, Colab
+    detail: PyTorch
     description:
       - statement: |
           Achieved higher quality style transfer by redefining the style loss as the Wasserstein distance between the
