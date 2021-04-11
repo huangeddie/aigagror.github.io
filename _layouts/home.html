@@ -11,8 +11,22 @@ layout: default
 
     {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Blog" }}</h2>
-    <ul class="post-list">
-        {%- for post in site.posts limit:3 -%}
+    <p>This is my blog where I write my thoughts on life.</p>
+    <p>I group my blog posts into 4 categories.</p>
+    <dl>
+        <dt>learn</dt>
+        <dd>how to learn things efficiently</dd>
+        <dt>principles</dt>
+        <dd>views and habits that help me grow as a person</dd>
+        <dt>relationships</dt>
+        <dd>views and habits that help me build and maintain strong relationships</dd>
+        <dt>life</dt>
+        <dd>my life events and anything else that doesn't fall in the other categories</dd>
+    </dl>
+    <p>Only my <i>8</i> most recent posts will be displayed.</p>
+
+    <ul class="post-list" style="margin-top: 2em">
+        {%- for post in site.posts limit:8 -%}
         <li>
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
             <span class="post-meta">{{ post.date | date: date_format }} | <i class="fas fa-tag"></i> {{ post.categories }}</span>
@@ -22,7 +36,7 @@ layout: default
                 </a>
             </h3>
             {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
+            <p>{{ post.excerpt | strip_html }}...</p>
             {%- endif -%}
         </li>
         {%- endfor -%}
