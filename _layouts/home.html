@@ -9,36 +9,6 @@ layout: default
 
     {{ content }}
 
-    {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Blog" }}</h2>
-    <small>
-        <p>This is my blog where I write my thoughts on life. I group my blog posts into 4 categories.</p>
-        <p><b>Learn</b> - how to learn things efficiently</p>
-        <p><b>Principles</b> - views and habits that help me grow as a person</p>
-        <p><b>Relationships</b> - views and habits that help me build and maintain strong relationships</p>
-        <p><b>Life</b> - my life events and anything else that doesn't fall in the other categories</p>
-        <p>Only my <i>8</i> most recent posts will be displayed.</p>
-    </small>
 
-    <ul class="post-list" style="margin-top: 2em">
-        {%- for post in site.posts limit:8 -%}
-        <li>
-            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-            <span class="post-meta">{{ post.date | date: date_format }} | <i class="fas fa-tag"></i> {{ post.categories }}</span>
-            <h3>
-                <a class="post-link" href="{{ post.url | relative_url }}">
-                    {{ post.title | escape }}
-                </a>
-            </h3>
-            {%- if site.show_excerpts -%}
-            <p>{{ post.excerpt | strip_html }}...</p>
-            {%- endif -%}
-        </li>
-        {%- endfor -%}
-    </ul>
-
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-    {%- endif -%}
 
 </div>

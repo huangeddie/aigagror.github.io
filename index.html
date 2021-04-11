@@ -5,11 +5,36 @@
 layout: home
 ---
 <div class="row d-flex align-items-center">
-    <div class="col-3">
+    <div class="col-sm-3">
         <img alt="profile" src="{{ 'assets/img/profile.jpg' }}" style="border-radius: 50%"/>
     </div>
-    <div class="col-9">
+    <div class="col-sm-9">
         <p>I'm a full stack software engineer with a passion for deep learning research and designing things.</p>
     </div>
 </div>
+
+{%- if site.posts.size > 0 -%}
+<h2 class="post-list-heading">{{ page.list_title | default: "Blog" }}</h2>
+<small>
+    <p>This is my blog where I write my thoughts on things. I group my blog posts into 4 categories.</p>
+    <p><b>Learn</b> - how to learn things efficiently</p>
+    <p><b>Principles</b> - views and habits that help me grow as a person</p>
+    <p><b>Relationships</b> - views and habits that help me build and maintain strong relationships</p>
+    <p><b>Life</b> - my life events and anything else that doesn't fall in the other categories</p>
+</small>
+<hr>
+<ul class="post-list" style="margin-top: 2em">
+    {%- for post in site.posts -%}
+    <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta"><h4 style="margin-bottom: 0em">{{ post.title | escape }}</h4></span>
+        <p style="margin: 0em"><small><i>{{ post.date | date: date_format }} • {{ post.categories }}</i></small></p>
+        <p>{{ post.content | strip_html }}</p>
+    </li>
+    {%- endfor -%}
+</ul>
+
+
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+{%- endif -%}
 
