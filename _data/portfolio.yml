@@ -91,13 +91,14 @@ research:
     detail: Python, Pandas
     description:
       - statement: |
-          <b>Huang, E.</b>, Valdiviejas, H., & Bosch, N. (in press). I'm sure! Automatic detection of metacognition in
+          <b>Huang, E.</b>, Valdiviejas, H., & Bosch, N. I'm sure! Automatic detection of metacognition in
           online course discussion forums. In Proceedings of the 8th International Conference on Affective Computing
           and Intelligent Interaction (ACII 2019). Piscataway, NJ: IEEE
+          <a target="_blank" href="https://ieeexplore.ieee.org/document/8925506">[<small>ieeexplore.ieee.org/document/8925506</small>]</a>
       - statement: |
           Bosch, N., <b>Huang, E.</b>, Angrave, L., & Perry, M. (2019). Modeling improvement for underrepresented
           minorities in online STEM education. In Proceedings of the 27th Conference on User Modeling, Adaptation and
-          Personalization (UMAP 2019) (pp. 327–335). New York, NY: ACM. <a target="_blank" class=""
+          Personalization (UMAP 2019) (pp. 327–335). New York, NY: ACM. <a target="_blank"
           href="https://doi.org/10.1145/3320435.3320463">[<small>doi.org/10.1145/3320435.3320463</small>]</a>
   - title: Awards
     description:
