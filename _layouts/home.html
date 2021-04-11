@@ -11,19 +11,14 @@ layout: default
 
     {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Blog" }}</h2>
-    <p>This is my blog where I write my thoughts on life.</p>
-    <p>I group my blog posts into 4 categories.</p>
-    <dl>
-        <dt>Learn</dt>
-        <dd>How to learn things efficiently</dd>
-        <dt>Principles</dt>
-        <dd>Views and habits that help me grow as a person</dd>
-        <dt>Relationships</dt>
-        <dd>Views and habits that help me build and maintain strong relationships</dd>
-        <dt>Life</dt>
-        <dd>My life events and anything else that doesn't fall in the other categories</dd>
-    </dl>
-    <p>Only my <i>8</i> most recent posts will be displayed.</p>
+    <small>
+        <p>This is my blog where I write my thoughts on life. I group my blog posts into 4 categories.</p>
+        <p><b>Learn</b> - how to learn things efficiently</p>
+        <p><b>Principles</b> - views and habits that help me grow as a person</p>
+        <p><b>Relationships</b> - views and habits that help me build and maintain strong relationships</p>
+        <p><b>Life</b> - my life events and anything else that doesn't fall in the other categories</p>
+        <p>Only my <i>8</i> most recent posts will be displayed.</p>
+    </small>
 
     <ul class="post-list" style="margin-top: 2em">
         {%- for post in site.posts limit:8 -%}
