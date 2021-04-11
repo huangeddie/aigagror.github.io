@@ -34,7 +34,7 @@ layout: default
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
             <span class="post-meta"><h4 style="margin-bottom: 0em">{{ post.title | escape }}</h4></span>
             <p style="margin: 0em"><small><i>{{ post.date | date: date_format }} • {{ post.categories }}</i></small></p>
-            <p>{{ post.content | strip_html }}</p>
+            {{ post.content }}
         </li>
         {%- endfor -%}
     </ul>
