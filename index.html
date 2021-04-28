@@ -33,7 +33,7 @@ layout: default
         {%- for post in site.posts -%}
         {%- assign date_id_format = site.minima.date_format | default: "%Y-%m-%d•%H:%M:%S" -%}
         {%- assign post_id = post.date | date: date_id_format -%}
-        <li>
+        <li style="padding-bottom: 1em">
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
             <span class="post-meta">
                 <h4 id="{{ post_id }}" style="margin-bottom: 0em" class="show">
