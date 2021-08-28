@@ -1,14 +1,6 @@
 internships:
   - title: Google - Mountain View, CA
-    subtitle: Software Engineer Intern
-    date: Summer 2020
-    detail: Python, Google Infrastructure, Tensorflow
-    description:
-      - statement: Created deep ML models for full-reference image quality assessment of compressed images
-      - statement: Created a crowd-sourcing rating system for perceptual quality of compressed images
-      - statement: Created large-scale dataset pipelines for perceptual quality of compressed images
-  - title: Google - Mountain View, CA
-    subtitle: Software Engineer Intern
+    subtitle: Software Engineer Intern for the Photos Machine Intelligence team
     date: Summer 2019
     detail: C++, Google Infrastructure, Tensorflow
     description:
@@ -72,6 +64,20 @@ teachings:
       - statement: Created daily coding problems, solutions, and test cases (Problems of The Day).
 
 research:
+  - title: Deep Perceptual Image Quality Assessment for Compression
+    subtitle: Google - Perception Research
+    date: Summer 2020
+    detail: Google Infrastructure, Tensorflow
+    description:
+      - statement: Created the largest dataset as of 2021 for compression image quality assessment (CIQA)
+      - statement: |
+          Trained deep models on this dataset which performs competitive image quality assessments on other CIQA
+          datasets it has never seen before. (Dataset is well-generalized)
+      - statement: |
+          J. C. Mier, <b>E. Huang</b>, H. Talebi, F. Yang and P. Milanfar, "Deep Perceptual Image Quality Assessment for Compression," 2021 IEEE International Conference on Image Processing (ICIP), 2021, pp. 1484-1488, doi: 10.1109/ICIP42928.2021.9506217.
+          <a target="_blank" class="" href="https://ieeexplore.ieee.org/document/9506217">
+              [<small>ieeexplore.ieee.org/document/9506217</small>]
+          </a>
   - title: Wasserstein Style Transfer
     subtitle: University of Illinois, Urbana-Champaign
     date: December 2019 - June 2020
@@ -90,6 +96,9 @@ research:
     date: March 2018 - September 2019
     detail: Python, Pandas
     description:
+      - statement: |
+          Performed data analysis on demographics, language semantics, and their relationships to academic performance
+          in massive open online courses (MOOCs).
       - statement: |
           <b>Huang, E.</b>, Valdiviejas, H., & Bosch, N. I'm sure! Automatic detection of metacognition in
           online course discussion forums. In Proceedings of the 8th International Conference on Affective Computing
