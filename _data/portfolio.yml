@@ -64,6 +64,15 @@ teachings:
       - statement: Created daily coding problems, solutions, and test cases (Problems of The Day).
 
 research:
+  - title: Master's Thesis on Deep Computer Vision
+    subtitle: University of Illinois, Urbana-Champaign
+    date: Spring 2021
+    detail: Tensorflow
+    description:
+      - statement: Improved style transfer quality using a discriminator as the style loss
+      - statement: Improved contrastive feature learning using hierarchical sets of similarities instead of binary similarities (combines the essence of SimCLR and SupCon)
+      - statement: Created a generalizable deep model that decomposes sparse images into human-interpretable components
+      - statement: <a href="http://hdl.handle.net/2142/110564">[<small>hdl.handle.net/2142/110564</small>]</a>
   - title: Deep Perceptual Image Quality Assessment for Compression
     subtitle: Google - Perception Research
     date: Summer 2020
