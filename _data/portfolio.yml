@@ -1,4 +1,4 @@
-internships:
+work:
   - title: Google - Mountain View, CA
     subtitle: Software Engineer Intern for the Photos Machine Intelligence team
     date: Summer 2019
@@ -27,14 +27,14 @@ internships:
           - Created unit and UI tests
 
 teachings:
-  - title: University of Illinois at Urbana-Champaign
-    subtitle: CS 446 Machine Learning Teaching Assistant
+  - title: Machine Learning Teaching Assistant
+    subtitle: University of Illinois at Urbana-Champaign
     date: Fall 2020
     detail: Python
     description:
       - statement: Created homeworks, exams, and hosted office hours
-  - title: University of Illinois at Urbana-Champaign
-    subtitle: CS 357 Numerical Methods I Teaching Assistant
+  - title: Numerical Methods I Teaching Assistant
+    subtitle: University of Illinois at Urbana-Champaign
     date: Spring 2019
     detail: Python
     description:
@@ -44,15 +44,15 @@ teachings:
           [<small>https://courses.engr.illinois.edu/cs357/sp2020/</small>]
           </a>
       - statement: Created homeworks, quizzes, and hosted office hours
-  - title: University of Illinois at Urbana-Champaign
-    subtitle: CS 440 Artificial Intelligence Teaching Assistant
+  - title: Artificial Intelligence Teaching Assistant
+    subtitle: University of Illinois at Urbana-Champaign
     date: Fall 2019
     detail: Python
     description:
       - statement: Migrated current assignments into Gradescope's autograding infrastructure
       - statement: Created a new reinforcement learning assignment using OpenAI's Gym framework
-  - title: University of Illinois at Urbana-Champaign
-    subtitle: CS 225 Data Structures Course Assistant
+  - title: Data Structures Course Assistant
+    subtitle: University of Illinois at Urbana-Champaign
     date: Spring 2018 - Spring 2019
     detail: C++, Docker, Jekyll
     description:
@@ -64,7 +64,7 @@ teachings:
       - statement: Created daily coding problems, solutions, and test cases (Problems of The Day).
 
 research:
-  - title: Master's Thesis on Deep Computer Vision
+  - title: Master's Thesis on Deep Computer Vision (100+ GitHub stars)
     subtitle: University of Illinois, Urbana-Champaign
     date: Spring 2021
     detail: Tensorflow
@@ -87,7 +87,6 @@ research:
           <a target="_blank" class="" href="https://ieeexplore.ieee.org/document/9506217">
               [<small>ieeexplore.ieee.org/document/9506217</small>]
           </a>
-
   - title: iLearn Research Group - Champaign, IL
     subtitle: Educational Research Assistant for MOOCs
     date: March 2018 - September 2019
@@ -108,12 +107,12 @@ research:
           href="https://doi.org/10.1145/3320435.3320463">[<small>doi.org/10.1145/3320435.3320463</small>]</a>
   - title: Awards
     description:
-      - statement: |
-          Honorable Mention for the Outstanding Undergraduate Researcher Award for the 2019 Computing Research
-          Association's (CRA)
+    - statement: |
+        Honorable Mention for the Outstanding Undergraduate Researcher Award for the 2019 Computing Research
+        Association's (CRA)
 
 projects:
-  - title: Gym Go and Go AI
+  - title: Gym Go and Go AI (100+ GitHub stars)
     subtitle: |
       <a href="https://github.com/aigagror/GymGo">
         [<small>github.com/aigagror/GymGo</small>]
@@ -124,7 +123,7 @@ projects:
       - statement: Created computer Go for RL development which is listed in OpenAI's Gym library
       - statement: |
           Implemented a variation of Alpha Go Zero
-  - title: Deep Learning Art
+  - title: Reimplemented Neural Image Assessment research paper (20+ GitHub stars)
     subtitle: |
       <a href="https://github.com/aigagror/ML-Aesthetics-NIMA">
         [<small>github.com/aigagror/ML-Aesthetics-NIMA</small>]
