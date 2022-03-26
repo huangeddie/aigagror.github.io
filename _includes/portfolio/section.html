@@ -1,6 +1,5 @@
 {% for unit in include.units %}
-{% if resume and unit.cv %}
-{# Skip #}
+{% if page.resume and unit.cv %}
 {% else %}
 <div class="d-flex justify-content-between">
     <b>{{ unit.title }}</b> <small class="dynamic">{{ unit.date }}</small>

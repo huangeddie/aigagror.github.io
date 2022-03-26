@@ -44,14 +44,16 @@ teachings:
           [<small>https://courses.engr.illinois.edu/cs357/sp2020/</small>]
           </a>
       - statement: Created homeworks, quizzes, and hosted office hours
-  - title: Artificial Intelligence Teaching Assistant
+  - cv: true
+    title: Artificial Intelligence Teaching Assistant
     subtitle: University of Illinois at Urbana-Champaign
     date: Fall 2019
     detail: Python
     description:
       - statement: Migrated current assignments into Gradescope's autograding infrastructure
       - statement: Created a new reinforcement learning assignment using OpenAI's Gym framework
-  - title: Data Structures Course Assistant
+  - cv: true
+    title: Data Structures Course Assistant
     subtitle: University of Illinois at Urbana-Champaign
     date: Spring 2018 - Spring 2019
     detail: C++, Docker, Jekyll
@@ -87,7 +89,8 @@ research:
           <a target="_blank" class="" href="https://ieeexplore.ieee.org/document/9506217">
               [<small>ieeexplore.ieee.org/document/9506217</small>]
           </a>
-  - title: iLearn Research Group - Champaign, IL
+  - cv: true
+    title: iLearn Research Group - Champaign, IL
     subtitle: Educational Research Assistant for MOOCs
     date: March 2018 - September 2019
     detail: Python, Pandas
@@ -105,7 +108,8 @@ research:
           minorities in online STEM education. In Proceedings of the 27th Conference on User Modeling, Adaptation and
           Personalization (UMAP 2019) (pp. 327–335). New York, NY: ACM. <a target="_blank"
           href="https://doi.org/10.1145/3320435.3320463">[<small>doi.org/10.1145/3320435.3320463</small>]</a>
-  - title: Awards
+  - cv: true
+    title: Awards
     description:
     - statement: |
         Honorable Mention for the Outstanding Undergraduate Researcher Award for the 2019 Computing Research
@@ -132,7 +136,8 @@ projects:
     detail: Python, PyTorch
     description:
       - statement: Fine tuned DenseNet via Neural Image Assessment to rate the aesthetic quality of images
-  - title: Pokulator
+  - cv: true
+    title: Pokulator
     subtitle: App Store Developer
     date: August 2015 - December 2015
     detail: Swift
