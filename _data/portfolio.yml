@@ -1,6 +1,18 @@
 work:
-  - title: Google - Mountain View, CA
-    subtitle: Software Engineer Intern for the Photos Machine Intelligence team
+  - title: Software Engineer
+    subtitle: Google (YouTube) - Mountain View, CA
+    date: Summer 2021 - Present
+    detail: C++, Google Infrastructure, Tensorflow
+    description:
+      - statement: Trained models to optimize the ranking of search suggestions
+        subdescription:
+          - Optimized our data pipeline to increase speed and reduce memory consumption
+          - GPU/TPU is now the bottleneck rather than the data loading
+      - statement: Analyzed aggregate user data for potential new search/suggest features
+      - statement: Redesigned our backend services for greater extensibility and code cleanliness
+      - statement: Implemented the backend for upcoming features
+  - title: Software Engineer Intern
+    subtitle: Google (Photos Machine Intelligence) - Mountain View, CA
     date: Summer 2019
     detail: C++, Google Infrastructure, Tensorflow
     description:
@@ -8,16 +20,16 @@ work:
       - statement: Created a crowd-sourcing rating system for neural style transfer creations
       - statement: Created deep ML models to predict the probability that a user would prefer the stylized photo over the original content
   - cv: true
-    title: Epic Systems - Verona, WI
-    subtitle: Software Engineer Intern
+    title: Software Engineer Intern
+    subtitle: Epic Systems - Verona, WI
     date: Summer 2018
     detail: Python, Django, DialogFlow, Twilio
     description:
       - statement: Created an SMS text messaging assistant featuring natural language processing
       - statement: Dogfooded testing protocols with colleagues and developed dashboards to oversee large scale training
   - cv: true
-    title: Agrible, Inc. - Champaign, IL
-    subtitle: iOS Software Engineer Intern
+    title: Software Engineer Intern
+    subtitle: Agrible, Inc. - Champaign, IL
     date: Winter 2017
     detail: iOS, Swift
     description:
@@ -71,7 +83,7 @@ research:
     date: Spring 2021
     detail: Tensorflow
     description:
-      - statement: Improved style transfer quality using a discriminator as the style loss
+      - statement: Improved style transfer quality using a discriminator as the style loss <a href="https://github.com/aigagror/style-transfer-quality">[<small>github.com/aigagror/style-transfer-quality</small>]</a>
       - statement: Improved contrastive feature learning using hierarchical sets of similarities instead of binary similarities (combines the essence of SimCLR and SupCon)
       - statement: Created a generalizable deep model that decomposes sparse images into human-interpretable components
       - statement: <a href="http://hdl.handle.net/2142/110564">[<small>hdl.handle.net/2142/110564</small>]</a>
