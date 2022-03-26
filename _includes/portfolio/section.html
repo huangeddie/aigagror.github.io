@@ -10,20 +10,25 @@
         {{ unit.detail }}
     </small>
 </div>
-<ul class="ml-4">
-    {% for description_item in unit.description %}
-    <li>
-        {{ description_item.statement|safe }}
-        <ul>
-            {% for subdescription_item in description_item.subdescription %}
+<div class="row">
+    <div class="col">
+        <ul class="ml-4">
+            {% for description_item in unit.description %}
             <li>
-                {{ subdescription_item }}
+                {{ description_item.statement|safe }}
+                <ul>
+                    {% for subdescription_item in description_item.subdescription %}
+                    <li>
+                        {{ subdescription_item }}
+                    </li>
+                    {% endfor %}
+                </ul>
             </li>
             {% endfor %}
         </ul>
-    </li>
-    {% endfor %}
-</ul>
+    </div>
+    <div class="col-3"></div>
+</div>
 {% endif %}
 {% endfor %}
 
