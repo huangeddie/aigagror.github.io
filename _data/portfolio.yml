@@ -1,18 +1,17 @@
 work:
   - title: Software Engineer
-    subtitle: Google (YouTube) - Mountain View, CA
+    subtitle: Google - YouTube Search & Suggest
     date: Summer 2021 - Present
     detail: C++, Google Infrastructure, Tensorflow
     description:
       - statement: Trained models to optimize the ranking of search suggestions
         subdescription:
-          - Optimized our data pipeline to increase speed and reduce memory consumption
-          - GPU/TPU is now the bottleneck rather than the data loading
+          - Optimized our data pipeline to increase speed and reduce memory consumption. GPU/TPU is now the bottleneck rather than the data loading
       - statement: Analyzed aggregate user data for potential new search/suggest features
       - statement: Redesigned our backend services for greater extensibility and code cleanliness
       - statement: Implemented the backend for upcoming features
   - title: Software Engineer Intern
-    subtitle: Google (Photos Machine Intelligence) - Mountain View, CA
+    subtitle: Google - Photos Machine Intelligence
     date: Summer 2019
     detail: C++, Google Infrastructure, Tensorflow
     description:
@@ -21,7 +20,7 @@ work:
       - statement: Created deep ML models to predict the probability that a user would prefer the stylized photo over the original content
   - cv: true
     title: Software Engineer Intern
-    subtitle: Epic Systems - Verona, WI
+    subtitle: Epic Systems
     date: Summer 2018
     detail: Python, Django, DialogFlow, Twilio
     description:
@@ -29,7 +28,7 @@ work:
       - statement: Dogfooded testing protocols with colleagues and developed dashboards to oversee large scale training
   - cv: true
     title: Software Engineer Intern
-    subtitle: Agrible, Inc. - Champaign, IL
+    subtitle: Agrible, Inc.
     date: Winter 2017
     detail: iOS, Swift
     description:
@@ -79,14 +78,13 @@ teachings:
 
 research:
   - title: Master's Thesis on Deep Computer Vision (100+ GitHub stars)
-    subtitle: University of Illinois, Urbana-Champaign
+    subtitle: University of Illinois, Urbana-Champaign <a href="http://hdl.handle.net/2142/110564">[<small>hdl.handle.net/2142/110564</small>]</a>
     date: Spring 2021
     detail: Tensorflow
     description:
       - statement: Improved style transfer quality using a discriminator as the style loss <a href="https://github.com/aigagror/style-transfer-quality">[<small>github.com/aigagror/style-transfer-quality</small>]</a>
       - statement: Improved contrastive feature learning using hierarchical sets of similarities instead of binary similarities (combines the essence of SimCLR and SupCon)
       - statement: Created a generalizable deep model that decomposes sparse images into human-interpretable components
-      - statement: <a href="http://hdl.handle.net/2142/110564">[<small>hdl.handle.net/2142/110564</small>]</a>
   - title: Deep Perceptual Image Quality Assessment for Compression
     subtitle: Google - Perception Research
     date: Summer 2020
@@ -102,8 +100,8 @@ research:
               [<small>ieeexplore.ieee.org/document/9506217</small>]
           </a>
   - cv: true
-    title: iLearn Research Group - Champaign, IL
-    subtitle: Educational Research Assistant for MOOCs
+    title: Research Assistant
+    subtitle: University of Illinois at Urbana-Champaign - iLearn Research Group
     date: March 2018 - September 2019
     detail: Python, Pandas
     description:
@@ -123,9 +121,9 @@ research:
   - cv: true
     title: Awards
     description:
-    - statement: |
-        Honorable Mention for the Outstanding Undergraduate Researcher Award for the 2019 Computing Research
-        Association's (CRA)
+      - statement: |
+          Honorable Mention for the Outstanding Undergraduate Researcher Award for the 2019 Computing Research
+          Association's (CRA)
 
 projects:
   - title: Gym Go and Go AI (100+ GitHub stars)
